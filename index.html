@@ -35,16 +35,24 @@
                 
                 <div class="gameboy-screen">
                     <div class="screen-content">
+                         <div class="screen-info">
+                            <span class="dot-matrix">═══════ DOT MATRIX WITH STEREO SOUND</span>
+                        </div>
                         <h1 class="birthday-title">Hi Baby!</h1>
                         <div class="start-text">Press Start Button</div>
-                        <div class="screen-info">
-                            <span class="dot-matrix">DOT MATRIX WITH STEREO SOUND</span>
+                        <div class="begin-text">Let the fun begin</div>
+                        <div class="screen-info-2">
+                            <span class="dot-matrix"></span>
                             <span class="battery">
                                 <span class="battery-dot"></span>
                                 BATTERY 10%
                             </span>
                         </div>
                     </div>
+                </div>
+
+                <div class="text-brand">
+                    <h1 class="text-brand-title">by Cereacel</h1>
                 </div>
 
                 <div class="menu-buttons">
@@ -70,7 +78,7 @@
                 </div>
 
                 <div class="bottom-controls">
-                    <button class="control-btn select-btn">SELECT</button>
+                    <button class="control-btn select-btn">DELETE</button>
                     <button class="control-btn start-btn">START</button>
                 </div>
 
@@ -85,7 +93,7 @@
                         <!-- Content will be populated by JavaScript -->
                 </div>
                 <div class="page-controls">
-                    <button class="page-btn back-btn" data-page="main">KEMBALI</button>
+                   <button class="page-btn back-btn" data-page="main">KEMBALI</button>
                     <button class="page-btn continue-btn">SELANJUTNYA</button>
                 </div>
             </div>
@@ -95,7 +103,7 @@
         <div id="gallery-screen" class="screen">
             <div class="page-container">
                 <div class="page-screen">
-                    <div class="page-header">Gallery</div>
+                    <div class="page-header">Gallery📷</div>
                     <div class="gallery-content">
                         <!-- Content will be populated by JavaScript -->
                     </div>
@@ -111,7 +119,7 @@
         <div id="music-screen" class="screen">
             <div class="page-container">
                 <div class="page-screen">
-                    <div class="page-header">Music Player</div>
+                    <div class="page-header">Music Player🎧</div>
                     <div class="music-content">
                         <!-- Content will be populated by JavaScript -->
                     </div>
@@ -128,7 +136,7 @@
             <div class="page-container">
                 <div class="page-screen">
                     <div class="tetris-header">
-                        <div class="tetris-title">Tetris</div>
+                        <div class="tetris-title">Tetris🧩</div>
                         <div class="tetris-stats">
                             <div class="stat">Score: <span id="score">0</span></div>
                             <div class="stat">Level: <span id="level">1</span></div>
@@ -143,10 +151,11 @@
                         <button class="tetris-btn" id="rotate-btn">ROTATE</button>
                         <button class="tetris-btn" id="right-btn">▶</button>
                     </div>
-                </div>
-                <div class="page-controls">
+                    <div class="page-controls mb-0">
                     <button class="page-btn back-btn" data-page="main">KEMBALI</button>
                 </div>
+                </div>
+                
             </div>
         </div>
 

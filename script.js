@@ -32,10 +32,10 @@ function simulateLoading() {
     let progress = 0;
     const loadingMessages = [
         '&gt; INITIALIZING..._',
-        '&gt; LOADING MEMORIES..._',
-        '&gt; PREPARING SURPRISE..._',
-        '&gt; ALMOST READY..._',
-        '&gt; LOADING COMPLETE!_'
+        '&gt; COLLECTING VIBES..._',
+        '&gt; SETTING THE MOOD..._',
+        '&gt; ALMOST THERE..._',
+        '&gt; READY TO GO!_'
     ];
     
     let messageIndex = 0;
@@ -199,11 +199,11 @@ function initializeMessage() {
     const pageScreen = messageScreen.querySelector('.page-screen');
     if (pageScreen) {
         pageScreen.innerHTML = `
-            <div class="page-header">Message</div>
+            <div class="page-header">Message💌</div>
             <div class="message-content">
                 <!-- Content will be populated by typewriter -->
             </div>
-            <button class="skip-btn">SKIP</button>
+            <button class="skip-btn">PERCEPAT⏭️</button>
         `;
         
         // Add skip button event listener
@@ -225,15 +225,15 @@ function startTypewriter() {
     
     const fullMessage = `Hi Acel,
 
-How’s my baby today? lagi oke2 aja atau lagi banyak pikiran?
+How’s my baby todayyy? lagi oke2 aja atau lagi banyak pikirann?
 
-Sayang, I know sometimes life feels heavy, and maybe rn u're in one of those moments. It’s okay, really. U don’t always have to be strong all the time. Aku cuma mau kamu tau, no matter what, im here. Always.
+Sayang, i know sometimes life feels heavy, n maybe rn u're in one of those moments. It’s okayyy, really:) u don't always have to be strong all the time n aku cuma mau kamu tauu, no matter what, im here. always.
 
-I just wanna see u smile again, the kind of smile that makes my day feel complete. If u’re tired, rest. If u’re sad, cry. Tapi please jangan simpan semuanya sendiri. Let me share the weight with u.
+I just wanna see u smile again, the kind of smile that makes my day feel completee. If u're tired, rest. If u’re sad, cry. Tapi plisss jangan simpen semuanya sendiri yaa sayang? Let me share the weight with u.
 
-U’re not alone in this. Every single time u feel like u’re falling, I’ll be the one catching u. Every time u feel lost, I’ll be the one holding ur hand and showing u that there’s still light ahead.
+U're not alone in this. Every single time u feel like u're falling, i’ll be the one catching u. Every time u feel lost, i'll be the one holding ur hand and showing u that there’s still light ahead.
 
-I love u more than words can explain, and im so proud of u, even if u don’t see it urself yet. I love u Acel. Here’s to more laughs, more memories, and better days ahead for us🤍`;
+I love u more than words can explain, and im so proud of u, even if u don’t see it urself yet.<br><br> I love u Acel, i really do. Here’s to more laughs, more memories, and better days ahead for us🤍`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -268,7 +268,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-         const fullMessage = `Hi Acel,<br><br>How’s my baby today? lagi oke2 aja atau lagi banyak pikiran?<br><br>Sayang, I know sometimes life feels heavy, and maybe rn u're in one of those moments. It’s okay, really. U don’t always have to be strong all the time. Aku cuma mau kamu tau, no matter what, im here. Always.<br><br>I just wanna see u smile again, the kind of smile that makes my day feel complete. If u’re tired, rest. If u’re sad, cry. Tapi please jangan simpan semuanya sendiri. Let me share the weight with u.<br><br>U’re not alone in this. Every single time u feel like u’re falling, I’ll be the one catching u. Every time u feel lost, I’ll be the one holding ur hand and showing u that there’s still light ahead.<br><br>I love u more than words can explain, and im so proud of u, even if u don’t see it urself yet. I love u Acel. Here’s to more laughs, more memories, and better days ahead for us🤍`;
+         const fullMessage = `Hi Acel,<br><br>How’s my baby todayyy? lagi oke2 aja atau lagi banyak pikirann?<br><br>Sayang, i know sometimes life feels heavy, n maybe rn u're in one of those moments. It’s okayyy, really:) u don't always have to be strong all the time n aku cuma mau kamu tauu, no matter what, im here. always.<br><br>I just wanna see u smile again, the kind of smile that makes my day feel completee. If u're tired, rest. If u’re sad, cry. Tapi plisss jangan simpen semuanya sendiri yaa sayang? Let me share the weight with u.<br><br>U're not alone in this. Every single time u feel like u're falling, i’ll be the one catching u. Every time u feel lost, i'll be the one holding ur hand and showing u that there’s still light ahead.<br><br>I love u more than words can explain, and im so proud of u, even if u don’t see it urself yet.<br><br> I love u Acel, i really do. Here’s to more laughs, more memories, and better days ahead for us🤍`;
 
 
             messageContent.innerHTML = fullMessage;
@@ -293,9 +293,9 @@ function initializeGallery() {
             <span class="photobox-title">PHOTOBOX</span>
             <div class="photobox-dot green"></div>
         </div>
-        <div class="photobox-progress">READY TO PRINT</div>
+        <div class="photobox-progress">READY TO PRINT?</div>
         <div class="photo-display">
-            <div class="photo-placeholder">Press MULAI CETAK to start photo session</div>
+            <div class="photo-placeholder">Press MULAI CETAK to snap your best shots</div>
         </div>
         <div class="photobox-controls">
             <button class="photo-btn">MULAI CETAK</button>
@@ -393,10 +393,10 @@ function startPhotoShow() {
     const countdownInterval = setInterval(() => {
         countdown--;
         if (countdown > 0) {
-            progressDiv.textContent = `GET READY... ${countdown}`;
+            progressDiv.textContent = `SIAPPP??... ${countdown}`;
         } else {
             clearInterval(countdownInterval);
-            progressDiv.textContent = 'SMILE! 📸';
+            progressDiv.textContent = 'Say hi to the camera!📸';
             startPhotoCapture(photos);
         }
     }, 1000);
@@ -827,13 +827,13 @@ function drawPiece(piece) {
 
 function getBlockColor(type) {
     const colors = {
-        1: '#ff4757', // I-piece - bright red
-        2: '#2ed573', // O-piece - bright green
-        3: '#3742fa', // T-piece - bright blue
+        1: '#A16D28', // I-piece - bright red
+        2: '#FFE1E0', // O-piece - bright green
+        3: '#DC2525', // T-piece - bright blue
         4: '#ff6b35', // S-piece - bright orange
         5: '#ffa502', // Z-piece - bright yellow
-        6: '#a55eea', // J-piece - bright purple
-        7: '#26d0ce'  // L-piece - bright cyan
+        6: '#2CFF05', // J-piece - bright purple
+        7: '#DBDBDB'  // L-piece - bright cyan
     };
     return colors[type] || '#ffffff';
 }
