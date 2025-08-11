@@ -227,13 +227,13 @@ function startTypewriter() {
 
 How’s my baby today? lagi oke2 aja atau lagi banyak pikiran?
 
-Sayang, I know sometimes life feels heavy, and maybe rn u're in one of those moments. It’s okay, really. U don’t always have to be strong all the time. Aku cuma mau kamu tau, no matter what, I’m here. Always.
+Sayang, I know sometimes life feels heavy, and maybe rn u're in one of those moments. It’s okay, really. U don’t always have to be strong all the time. Aku cuma mau kamu tau, no matter what, im here. Always.
 
 I just wanna see u smile again, the kind of smile that makes my day feel complete. If u’re tired, rest. If u’re sad, cry. Tapi please jangan simpan semuanya sendiri. Let me share the weight with u.
 
 U’re not alone in this. Every single time u feel like u’re falling, I’ll be the one catching u. Every time u feel lost, I’ll be the one holding ur hand and showing u that there’s still light ahead.
 
-I love u more than words can explain, and I’m so proud of u, even if u don’t see it urself yet. I love u Acel. Here’s to more laughs, more memories, and better days ahead for us🤍`;
+I love u more than words can explain, and im so proud of u, even if u don’t see it urself yet. I love u Acel. Here’s to more laughs, more memories, and better days ahead for us🤍`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -268,7 +268,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-         const fullMessage = `Hi Acel,<br><br>How’s my baby today? lagi oke2 aja atau lagi banyak pikiran?<br><br>Sayang, I know sometimes life feels heavy, and maybe rn u're in one of those moments. It’s okay, really. U don’t always have to be strong all the time. Aku cuma mau kamu tau, no matter what, I’m here. Always.<br><br>I just wanna see u smile again, the kind of smile that makes my day feel complete. If u’re tired, rest. If u’re sad, cry. Tapi please jangan simpan semuanya sendiri. Let me share the weight with u.<br><br>U’re not alone in this. Every single time u feel like u’re falling, I’ll be the one catching u. Every time u feel lost, I’ll be the one holding ur hand and showing u that there’s still light ahead.<br><br>I love u more than words can explain, and I’m so proud of u, even if u don’t see it urself yet. I love u Acel. Here’s to more laughs, more memories, and better days ahead for us🤍`;
+         const fullMessage = `Hi Acel,<br><br>How’s my baby today? lagi oke2 aja atau lagi banyak pikiran?<br><br>Sayang, I know sometimes life feels heavy, and maybe rn u're in one of those moments. It’s okay, really. U don’t always have to be strong all the time. Aku cuma mau kamu tau, no matter what, im here. Always.<br><br>I just wanna see u smile again, the kind of smile that makes my day feel complete. If u’re tired, rest. If u’re sad, cry. Tapi please jangan simpan semuanya sendiri. Let me share the weight with u.<br><br>U’re not alone in this. Every single time u feel like u’re falling, I’ll be the one catching u. Every time u feel lost, I’ll be the one holding ur hand and showing u that there’s still light ahead.<br><br>I love u more than words can explain, and im so proud of u, even if u don’t see it urself yet. I love u Acel. Here’s to more laughs, more memories, and better days ahead for us🤍`;
 
 
             messageContent.innerHTML = fullMessage;
